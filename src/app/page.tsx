@@ -15,21 +15,25 @@ export default function Home() {
           Chain Abstracted Podcast
         </h1>
         <h3 className="text-2xl font-semibold tracking-tight">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Exploring the world of chain abstraction and blockchain technologies.
         </h3>
         <p className="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat
-          purus, lobortis a ex vitae, dignissim convallis lorem. Cras et metus
-          sed eros ullamcorper gravida. Donec vel massa purus. Phasellus semper
-          augue a eleifend volutpat. Interdum et malesuada fames ac ante ipsum
-          primis in faucibus.
+          Welcome to Chain Abstracted, where we delve into the intricacies of
+          chain abstraction and other blockchain technologies, including how
+          NEAR Protocol is pioneering a coherent, multi-chain experience for
+          users and developers alike. Hosted by Jared (Ready Layer One) and
+          Altan Tutar, each episode brings you insightful discussions with
+          industry leaders and innovators. Join us as we welcome key guests such
+          as Illia Polosukhin (Co-Founder of NEAR Protocol), Zaki Manian
+          (Co-Founder of Sommelier Finance), and Kendall Cole (Co-Founder of
+          Proximity Labs).
         </p>
         <p className="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat
-          purus, lobortis a ex vitae, dignissim convallis lorem. Cras et metus
-          sed eros ullamcorper gravida. Donec vel massa purus. Phasellus semper
-          augue a eleifend volutpat. Interdum et malesuada fames ac ante ipsum
-          primis in faucibus.
+          Whether {"you're"} a blockchain enthusiast, a developer, or just
+          curious about the future of decentralized technology, Chain Abstracted
+          is your gateway to understanding the impact and potential of chain
+          abstraction and other technologies in the evolving world of
+          blockchain.
         </p>
       </div>
       <div className="w-full lg:w-1/2 px-4 flex flex-col justify-center lg:pr-[20%] gap-3 mb-10">

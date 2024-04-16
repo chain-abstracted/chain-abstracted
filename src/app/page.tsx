@@ -18,15 +18,15 @@ export default function Home() {
           Exploring the world of chain abstraction and blockchain technologies.
         </h3>
         <p className="text-justify">
-          Welcome to Chain Abstracted, where we delve into the intricacies of
-          chain abstraction and other blockchain technologies, including how
-          NEAR Protocol is pioneering a coherent, multi-chain experience for
-          users and developers alike. Hosted by Jared (Ready Layer One) and
-          Altan Tutar, each episode brings you insightful discussions with
-          industry leaders and innovators. Join us as we welcome key guests such
-          as Illia Polosukhin (Co-Founder of NEAR Protocol), Zaki Manian
-          (Co-Founder of Sommelier Finance), and Kendall Cole (Co-Founder of
-          Proximity Labs).
+          Welcome to <span className="font-bold">Chain Abstracted</span>, where
+          we delve into the intricacies of chain abstraction and other
+          blockchain technologies, including how NEAR Protocol is pioneering a
+          coherent, multi-chain experience for users and developers alike.
+          Hosted by Jared (Ready Layer One) and Altan Tutar, each episode brings
+          you insightful discussions with industry leaders and innovators. Join
+          us as we welcome key guests such as Illia Polosukhin (Co-Founder of
+          NEAR Protocol), Zaki Manian (Co-Founder of Sommelier Finance), and
+          Kendall Cole (Co-Founder of Proximity Labs).
         </p>
         <p className="text-justify">
           Whether {"you're"} a blockchain enthusiast, a developer, or just

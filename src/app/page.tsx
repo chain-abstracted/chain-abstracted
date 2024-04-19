@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import logo from "@/public/cap_pfp.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
       </div>
       <div className="w-full lg:w-1/2 px-4 flex flex-col justify-center lg:pr-[20%] gap-3 mb-10">
         <iframe
-          src="https://open.spotify.com/embed/album/18NOKLkZETa4sWwLMIm0UZ?utm_source=generator"
+          src="https://open.spotify.com/embed/show/7IMr2RxGlwjaXrhfUfvKEB"
           width="100%"
           height="352"
           frameBorder="0"
@@ -46,9 +47,15 @@ export default function Home() {
           loading="lazy"
         ></iframe>
         <hr />
-        <Button>Listen on Spotify</Button>
-        <Button>Listen on Apple Podcast</Button>
-        <Button>Listen on Google Podcast</Button>
+        <Link
+          className={buttonVariants()}
+          href={"https://open.spotify.com/show/7IMr2RxGlwjaXrhfUfvKEB"}
+        >
+          Listen on Spotify
+        </Link>
+
+        <Button disabled>Listen on Apple Podcast</Button>
+        <Button disabled>Listen on Google Podcast</Button>
       </div>
     </div>
   );

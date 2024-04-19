@@ -39,10 +39,8 @@ export default function Home() {
       </div>
       <div className="w-full lg:w-1/2 px-4 flex flex-col justify-center lg:pr-[20%] gap-3 mb-10">
         <iframe
-          src="https://open.spotify.com/embed/show/7IMr2RxGlwjaXrhfUfvKEB"
-          width="100%"
+          src="https://open.spotify.com/embed/show/7IMr2RxGlwjaXrhfUfvKEB/video"
           height="352"
-          frameBorder="0"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>

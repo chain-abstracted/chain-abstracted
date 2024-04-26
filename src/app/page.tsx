@@ -59,6 +59,13 @@ export default function Home() {
         >
           Listen on Apple Podcast
         </Link>
+        <hr />
+        <Link
+          className={buttonVariants()}
+          href={"https://t.me/chainabstracted"}
+        >
+          Join our Telegram
+        </Link>
       </div>
     </div>
   );

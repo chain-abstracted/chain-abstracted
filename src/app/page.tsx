@@ -1,4 +1,4 @@
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import logo from "@/public/cap_pfp.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -51,9 +51,14 @@ export default function Home() {
         >
           Listen on Spotify
         </Link>
-
-        <Button disabled>Listen on Apple Podcast</Button>
-        <Button disabled>Listen on Google Podcast</Button>
+        <Link
+          className={buttonVariants()}
+          href={
+            "https://podcasts.apple.com/us/podcast/chain-abstracted/id1742353156"
+          }
+        >
+          Listen on Apple Podcast
+        </Link>
       </div>
     </div>
   );

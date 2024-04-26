@@ -54,6 +54,14 @@ export default function Home() {
         <Link
           className={buttonVariants()}
           href={
+            "https://www.youtube.com/playlist?list=PL9tzQn_TEuFX6Tdr8xGqHntARYhxpzaGt"
+          }
+        >
+          Watch on YouTube
+        </Link>
+        <Link
+          className={buttonVariants()}
+          href={
             "https://podcasts.apple.com/us/podcast/chain-abstracted/id1742353156"
           }
         >
